@@ -33,4 +33,6 @@ Data Augmentation: Use the augmented dataset for the final model configuration.
 
 ### 3. Notes
 
-Each optimization stage builds on the preceding configuration. Unless otherwise specified, all other model parameters remain unchanged.
+- Each optimization stage builds on the preceding configuration.
+- Unless otherwise specified, all other model parameters remain unchanged.
+- Model training and execution are performed using the Jupyter Notebook train_oilwell.ipynb.
