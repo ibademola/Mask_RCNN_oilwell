@@ -33,6 +33,8 @@ Data Augmentation: Use the augmented dataset for the final model configuration.
 
 ### 3. Notes
 
+- All model training and optimization experiments are executed in the Jupyter notebook train oilwell.ipynb
+- Data augmentation is performed in the Jupyter notebook oilwell_aug.ipynb
 - Each optimization stage builds on the preceding configuration.
 - Unless otherwise specified, all other model parameters remain unchanged.
-- Model training and execution are performed using the Jupyter Notebook train_oilwell.ipynb.
+
