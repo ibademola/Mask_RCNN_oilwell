@@ -6,9 +6,25 @@ This repository contains the Mask R-CNN implementation (TensorFlow 2.14) used fo
 
 The datasets are stored separately on Google Drive.
 
-Original Dataset: https://drive.google.com/drive/folders/1Au7sdv6jL2wyPfMBmt9ZYo1SuYcLV-cP?usp=drive_link
+#### Original Dataset:
 
-Augmented Dataset: https://drive.google.com/drive/folders/1dU2zoaNbpNI6TdLWu38B9NyrswR58Ot6?usp=drive_link
+https://drive.google.com/drive/folders/1Au7sdv6jL2wyPfMBmt9ZYo1SuYcLV-cP?usp=drive_link
+
+##### Original Dataset Structure
+
+The original dataset contains four subfolders:
+
+| Folder Name | Description |
+|---|---|
+| `Comb_siteA` | Combined Site A dataset containing both pre-remediation and post-remediation data |
+| `SiteA_post` | Site A post-remediation dataset |
+| `siteA_pre` | Site A pre-remediation dataset |
+| `siteB` | Site B dataset |
+
+Each folder contains the corresponding dataset used for model training, validation, or testing.
+
+#### Augmented Dataset: 
+https://drive.google.com/drive/folders/1dU2zoaNbpNI6TdLWu38B9NyrswR58Ot6?usp=drive_link
 
 Download and place the original dataset in: Mask-RCNN_TF2.14.0/datasets/oilwell/
 
